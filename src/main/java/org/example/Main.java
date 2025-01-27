@@ -18,7 +18,7 @@ public class Main {
             // Example of setting a value with an expiration time (5 seconds)
             jedis.setex("tempKey", 5, "temporaryValue");
             System.out.println("Stored 'tempKey' with expiration of 5 seconds");
-            System.out.println("Chenges Made in master");
+            System.out.println("Chenges Made");
         } catch (Exception e) {
             e.printStackTrace();
         }
